@@ -1,0 +1,19 @@
+// Import normalize css from CDN
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+// Import dev utilities
+@import "variables";
+@import "mixins";
+
+// Import class utilities
+@import "base";
+@import "text";
+@import "sizing";
+@import "spacing";
+@import "border";
+@import "display";
+@import "flex";
+@import "float";
+@import "positioning";
+@import "overflows";
+@import "visibility";

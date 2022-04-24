@@ -1,0 +1,55 @@
+// Responsive breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+);
+
+// sizing and spacing
+$font-size: 16px;
+$base-size: 16px;
+$sizes: (
+  0: 0,
+  50: 50%,
+  100: 100%,
+  auto: auto,
+);
+
+$spacers: (
+  0: 0,
+  1: $base-size * 0.25,
+  2: $base-size * 0.5,
+  3: $base-size,
+  4: $base-size * 1.5,
+  5: $base-size * 3,
+);
+
+// Borders
+$border-width: 1px;
+$border-color: #e3e3e3;
+$border-radius: 0.25rem;
+
+// Text and fonts
+$text-muted: #757575;
+$font-sans-serif: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-serif: "serif";
+
+// Shadows
+$box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+// overflows
+$overflow-types: overflow overflow-x overflow-y;
+$overflow-values: auto hidden scroll;
+
+// Positions
+$positions: static relative absolute fixed sticky;
+$positions-places: top right left bottom;

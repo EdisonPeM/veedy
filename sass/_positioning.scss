@@ -1,0 +1,48 @@
+@each $position in $positions {
+  .position-#{$position} {
+    position: $position !important;
+  }
+}
+
+@each $place in $positions-places {
+  .p-#{$place}-0 {
+    #{$place}: 0;
+  }
+
+  .p-#{$place}-100 {
+    #{$place}: 100%;
+  }
+}
+
+// centered
+.p-x-center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.p-y-center {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.p-center {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// Full sizes
+.p-full-w {
+  left: 0;
+  right: 0;
+}
+
+.p-full-h {
+  top: 0;
+  bottom: 0;
+}
+
+.p-full-size {
+  @extend .p-full-w;
+  @extend .p-full-h;
+}

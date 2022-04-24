@@ -1,0 +1,65 @@
+// Alignment
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+
+// Transformation
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+// Weight and style
+.text-light {
+  font-weight: light;
+}
+.text-normal {
+  font-weight: normal;
+}
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+// Contextual colors
+.text-white {
+  color: white;
+}
+
+.text-muted {
+  color: $text-muted;
+}
+
+// Misc
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.text-wrap {
+  white-space: normal;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.text-break {
+  word-break: break-word; // Deprecated, but avoids issues with flex containers
+  word-wrap: break-word; // Used instead of `overflow-wrap` for IE & Edge Legacy
+}

@@ -1,0 +1,7 @@
+@each $type in $overflow-types {
+  @each $value in $overflow-values {
+    .#{$type}-#{$value} {
+      #{$type}: $value;
+    }
+  }
+}
