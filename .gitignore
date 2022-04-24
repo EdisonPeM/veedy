@@ -4,3 +4,4 @@ css
 coverage
 __mocks__
 __snapshots__
+storybook-static
