@@ -1,6 +1,6 @@
 {
   "name": "@edisonpem/veedy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Edison Peñuela <edisonpe961206@hotmail.com>",
   "description": "My First react library",
   "keywords": [],
@@ -21,7 +21,8 @@
     "build:sass": "sass sass:css",
     "build:lib": "rollup -c",
     "build": "run-p build:sass build:lib",
-    "watch:lib": "rollup -c --watch"
+    "watch:lib": "rollup -c --watch",
+    "prepublish": "run-p test build"
   },
   "dependencies": {
     "classnames": "^2.3.1"
